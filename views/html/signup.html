@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/css/signup_style.css">
     <title>AppTurnos</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="container_form">
+            <h1>Primera vez aquí</h1>
+            <form >
+                <input type="text" class="name" placeholder="Nombre"><br><br>
+                <input type="text" class="name" placeholder="Apellido"><br><br>
+                <input list="ID_type" class="id_type" placeholder="Tipo de identificacíon">
+                <datalist id="ID_type">
+                    <option value="Tarjeta de identidad"></option>
+                    <option value="Cedula de ciudadadania"></option>
+                    <option value="Cedula extranjera"></option>
+                </datalist>
+                <input type="number" class="id_number" placeholder="N. de identidad">
+            </form>
+        </div>
+        <div class="vertical_line"></div>
+        <div class="container_form">
+            <h1>Ya he estado aquí</h1>
+            <form>
+                <input list="ID_type" class="id_type" placeholder="Tipo de identificacíon">
+                <datalist id="ID_type">
+                    <option value="Tarjeta de identidad"></option>
+                    <option value="Cedula de ciudadadania"></option>
+                    <option value="Cedula extranjera"></option>
+                </datalist>
+                <input type="number" class="id_number" placeholder="N. de identidad">
+            </form>
+        </div>
+    </div>
+    <div class="button_request_an_shift">
+        <button type="button">solicitar turno</button>
+    </div>
 </body>
 </html>
