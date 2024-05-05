@@ -1,5 +1,12 @@
 body{
     background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
 .container{
     display: flex;
@@ -11,6 +18,7 @@ body{
     border-left: 3px solid #6929F2;
     opacity: 0.2;
     height: 381px;
+    margin-bottom: 10px;
 }
 .container_form{
     display: flex;
