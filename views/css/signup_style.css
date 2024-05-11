@@ -12,7 +12,6 @@ body{
     display: flex;
     justify-content: space-around;
 }
-
 .vertical_line{
     left: 50%;
     border-left: 3px solid #6929F2;
@@ -37,7 +36,7 @@ h1{
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
-.button_request_an_shift{
+.button_request_a_shift{
     display: flex;
     justify-content: center;
 }
